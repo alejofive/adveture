@@ -1,0 +1,863 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.fondo1{
+    background: url("../adventure2/images/bg_1.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu{
+    margin-left: auto;
+}
+
+.menu a{
+    margin: 0 15px
+}
+
+.todo-menu{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 35px
+}
+
+.menu-adven{
+    font-size: 20px;
+}
+
+.todo-menu a{
+    color: white;
+}
+
+.menu-adven{
+    font-weight: 700;
+}
+
+
+.titulo-principal h1{
+    font-size: 80px;
+    color: #fff;
+    line-height: 1;
+    font-weight: normal;
+}
+
+.titulo-principal p{
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+
+
+
+.caja-link{
+    display: flex;
+    justify-content: center;
+}
+
+.caja-link .active,
+.caja-link a:hover{
+    background: #f9be37
+}
+
+
+.caja-link a{
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+    margin: 0 10px;
+}
+
+.cajas{
+    display: flex;
+    background: white;
+    padding: 20px;
+}
+
+.cajas-item{
+    padding: 20px 5px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 15%;
+}
+
+.cajas-item input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    border: 1px solid gray;
+}
+
+.cajas-item select{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.cajas-item i{
+    position: absolute;
+    bottom: 36px;
+    left: 25px;
+    color: #f9be37;
+}
+
+.cajas-item-boton{
+    justify-content: flex-end;
+}
+
+.cajas-item button{
+    background: #f9be37;
+    border: none;
+   padding: 10px 40px ;
+   color: white;
+}
+
+
+.form-boton{
+    background: #f9be37;
+    border: 0;
+    padding: 20px;
+    color: white;
+}
+
+
+
+
+.relax{
+    background: #f8faff ;
+}
+
+.relax-caja{
+    margin: 50px 0;
+}
+
+.relax-color {
+    display: flex;
+    
+}
+
+.relax-color .color{
+    color: #f9be37
+}
+
+.destination-caja{
+    padding-bottom: 20px;
+}
+
+.destination-caja h1{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.destination-img{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+
+.destination-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.destination-img h3{
+    background: white;
+    padding: 20px 30px;
+    position: absolute;
+    bottom: 2%;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+}
+
+
+
+.about-todo{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.about-imagen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.about-imagen img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.about-tex{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 55px;
+    padding-right: 140px;
+}
+
+
+.icono-todo-big{
+    background: #f8faff ; 
+}
+
+.special-caja{
+    padding: 50px;
+}
+
+.icono-todo span{
+    font-size: 60px;
+    color: #f9be37
+}
+
+.icono-big{
+    display: flex;
+    margin: 60px 0;
+   
+}
+
+.todo-contenedor-popular{
+    margin-bottom: 90px;
+}
+
+.Popular-img img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.popular-caja{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.popular-paris{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.popular-paris p{
+    color: blue;
+    font-size: 18px;
+}
+
+.popular-caja-estrellas{
+    display: flex;
+}
+
+.popular-caja-estrellas i{
+    color: #f9be37;
+    padding-right: 5px;
+   
+}
+
+.popular-mapa-boton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular-mapa{
+    display: flex;
+    align-items: center;
+}
+
+.popular-mapa i{
+
+    align-items: center;
+    padding-right: 5px;
+}
+
+.popular-mapa p{
+    
+    margin-top: 12px;
+}
+
+.popular-mapa-boton button{
+    background: rgb(9, 194, 153);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    padding: 6px;
+}
+
+.fondo-activa{
+    background: url("../adventure2/images/bg_1.jpg");
+    background-position: 50% -84.2969px;
+    height: 40vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+}
+.color-fondo{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(8 ,194,148,.8);
+}
+
+.happy-numero h1{
+    font-size: 50px;
+}
+
+.happy-numero {
+    color: white;
+}
+
+.happy-numero-big{
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+
+.hoteles-caja img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.hotles-caja-tex{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.hotles-caja-price{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.hotles-caja-estrellas{
+    display: flex;
+    flex-direction: column;
+}
+
+.estrellas{
+    display: flex;
+}
+
+.hotles-caja-estrellas-star{
+    display: flex;
+}
+
+.hotles-caja-price2{
+    width: 30%;
+    text-align: right;
+}
+
+.hotles-caja-price2 p{
+    color: blue;
+    font-size: 18px;
+    margin: 0;
+}
+
+.dias{
+    color: black;
+    font-size: 13px;
+}
+
+.hoteles-mapa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hoteles-mapa-map{
+    display: flex;
+    align-items: center;
+}
+
+.hoteles-mapa-map p{
+    margin-top: 12px;
+}
+
+.hoteles-mapa button{
+    background: rgb(9, 194, 153);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    padding: 8px;
+}
+
+.dolar-nig{
+    display: flex;
+    flex-direction: column
+}
+
+.Popular-caja-todo{
+    width: 100%;
+}
+
+.Popular-img-img img{
+    width: 200px;
+    height: 300px;
+}
+
+.caja-popula2-big{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.our{
+    height: 140vh;
+    background: #08c299;
+}
+
+.carta-todo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.carta-persona{
+    position: relative;
+    margin: 0 20px;
+    z-index: 1;
+}
+
+.carta-persona img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 6px solid #08c299;
+}
+
+.carta-persona span{
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    color: white;
+    background: #f9be37;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.cartas-tex p{
+    font-size: 18px;
+    margin: 80px 0;
+}
+
+.cartas-tex{
+    width: 90%;
+    position: absolute;
+    top: 55px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #f8faff;
+    padding: 20px;
+}
+
+.titilo-car{
+    width: 100%;
+    color: white;
+    margin: 40px 0 ;
+}
+
+.titilo-car p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+}
+
+.popular-otra-cajas{
+    display: flex;
+    justify-content: space-around
+}
+
+.Popular-img-img-tamño img{
+    width: 300px;
+    height: 340px;
+}
+
+.popular-todo2{
+    margin-bottom: 50px;
+}
+
+.tips-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.tips-item-img{
+    height: 250px;
+    width: 100%;
+    position: relative;
+}
+
+.tips-item-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.tips-item-img span{
+    background: rgb(9, 194, 153);
+    padding: 5px 10px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.tips-item a:hover{
+    color: #f9be37;
+}
+.tips-item a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tips-item-text{
+    display: flex;
+    align-items: center;
+}
+
+.Subcribe-imput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.Subcribe-tex{
+    text-align: center;
+    color: white
+}
+
+.Subcribe-big {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.Subcribe-todo{
+    background: #08c299
+}
+
+.form-group input{
+    background: none;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+}
+
+.form-group ::placeholder{ 
+    color: white;
+}
+
+
+.footer-caja-big{
+    height: 130vh;
+    background: #222831;
+}
+
+.adventure-todo{
+    display: flex;
+}
+
+.adventure-tex{
+    color: white;
+}
+
+.adventure-tex h2{
+    margin: 40px 0;
+}
+
+.adventure-tex-span{
+    font-size: 30px;
+}
+
+.adventure-tex-span span{
+    background: rgba(255, 255, 255, 0.05);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.adventure-link{
+    display: flex;
+    flex-direction: column; 
+}
+.adventure-link :hover{
+    color: #474646
+}
+.adventure-link a{
+    margin: 10px 0;
+    color: white;
+}
+
+.Have-link{
+    display: flex;
+}
+
+.Have-link span{
+    margin-right: 20px;
+    color: white
+}
+
+.final{
+    height: 40%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+
+.menu-boton{
+    display: none
+}
+
+.cajas-item2{
+    display: none;
+}
+
+.about-todo-big2{
+    display: none;
+}
+
+.icono-todo-big2{
+    display: none;
+}
+
+.travel-todo-big2{
+    display: none;
+}
+
+.todo-contenedor-popular2{
+    display: none;
+}
+
+.hoteles2{
+    display: none;
+}
+
+.restaurant2{
+    display: none;
+}
+
+
+/* Large Devices, Wide Screens */
+@media (max-width : 1200px) {}
+
+/* Medium Devices, Desktops */
+@media (max-width : 991px) {
+    .menu-adven{
+        justify-content: flex-start;
+        flex-flow: row nowrap;
+    }
+
+    .menu-boton{
+        display: block;
+        border: none;
+        background: black;
+        color: white;
+    }
+
+    .fijo{
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        background: black;
+        z-index: 2;
+    }
+
+    .menu a{
+        display: none;
+    }
+    
+    .titulo-principal{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px;
+        margin: 50px 0px;
+    }
+
+    .titulo-principal h1{
+       
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .cajas-item1{
+        display: none;
+    }
+    
+    .destination-img{
+        margin: 40px 0;
+    }
+
+    .cajas-item2 .caja-link a {
+        color: black
+    }
+
+    .cajas2{
+        display: flex;
+        flex-direction: column
+    }
+
+    
+    .happy-numero-big2{
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+
+    .fondo-activa2{
+        height: 90vh;
+    }
+    
+    .footer-caja-big{
+        height: 380vh;
+        background: #222831;
+    }
+
+    .cajas-item2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cajas-item22{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+/* Small Devices, Tablets */
+@media (max-width : 768px) {
+    .menu-adven{
+        justify-content: flex-start;
+        flex-flow: row nowrap;
+    }
+
+    .menu-boton{
+        display: block;
+        border: none;
+        background: black;
+        color: white;
+    }
+
+    .fondo-menu-negro{
+        background: black;
+    }
+
+    .menu a{
+        display: none;
+    }
+    
+    .titulo-principal{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px;
+        margin: 50px 0px;
+    }
+
+    .titulo-principal h1{
+       
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .cajas-item1{
+        display: none;
+    }
+    
+    .destination-img{
+        margin: 40px 0;
+    }
+
+    .cajas-item2 .caja-link a {
+        color: black
+    }
+
+    .cajas2{
+        display: flex;
+        flex-direction: column
+    }
+
+    
+    .happy-numero-big2{
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+
+    .fondo-activa2{
+        height: 90vh;
+    }
+
+    .tips-caja-todo2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media (max-width : 480px) {
+  
+}
+
+/* Custom, iPhone Retina */
+@media (max-width : 320px) {}
